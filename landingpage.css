@@ -1,0 +1,473 @@
+.main {
+  transition: filter 0ms ease-in-out 0ms;
+}
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+  margin: 0;
+  
+
+}
+#body image {
+  width: 100%;
+  height: 100;
+}
+
+#video {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  opacity: 60%;
+  z-index: -1;
+  
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+.rightphoto {
+  float: right;
+  height: 630px;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+
+.container {
+
+  height: 620px;
+  width: 670px;
+
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  margin-left: 40px;
+  margin-top: 47px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container1 {
+  display: inline-block;
+  height: 140px;
+  width: 520px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.codecraft {
+  color: white;
+  font-family: Lilita One;
+  font-size: 63px;
+  margin-top: 4%;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+.mastering {
+  color: white;
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 25px;
+}
+
+.container2 {
+  height: 470px;
+  width: 450px;
+  margin-left: 120px;
+  justify-content: flex-start;
+}
+
+.learn {
+  color: white;
+  font-size: 20px;
+  margin-top: 35px;
+  text-align: center;
+  font-family: Arial;
+  margin-left: 20px;
+}
+
+.image {
+
+  height: 300px;
+  width: 100px;
+  margin-left: 100px;
+  display: inline-block;
+
+}
+
+.image1 {
+  height: 80px;
+  display: block;
+  margin-top: 15px;
+
+
+
+}
+
+.button1 {
+
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  vertical-align: top;
+
+}
+
+
+.htmlbutton {
+  display: block;
+  height: 35px;
+  width: 160px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 19px;
+  border-radius: 8px;
+  margin-top: 37px;
+  border-style: none;
+}
+
+.cssbutton {
+  display: block;
+  height: 35px;
+  width: 160px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 19px;
+  border-radius: 8px;
+  margin-top: 60px;
+  border-style: none;
+}
+
+.jsbutton {
+  display: block;
+  height: 35px;
+  width: 160px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 19px;
+  border-radius: 8px;
+  margin-top: 58px;
+  border-style: none;
+}
+
+.button1 button:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.1s ease;
+
+}
+#about1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.about {
+  margin-top: 40px;
+  margin-left: 60px;
+
+
+}
+
+#about1 {
+  height: 28px;
+  width: 125px;
+  margin-left: 35px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: solid;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 6px;
+
+}
+#members {
+  height: 28px;
+  width: 125px;
+  margin-left: 35px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: solid;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 6px;
+
+}
+
+.about1:hover,#members:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.popup {
+  position: absolute;
+  margin-left: 27%;
+  margin-top: -34%;
+  width: 650px;
+  height: 350px;
+  background-color: rgb(43, 43, 167);
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: opacity 300ms ease-in-out;
+  opacity: 0;
+  z-index: -1;
+  margin-bottom: 200px;
+  
+}
+
+.popup img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 100%;
+}
+.popup .closebutton {
+  z-index: 9999;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: rgba(94, 94, 94, 0.582);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.ayandiv {
+  z-index: 999;
+  
+  height: 30%;
+  width: 105px;
+  margin-top: -44%;
+  margin-left: 40px;
+  display: inline-block;
+  border-radius: 100%;
+  vertical-align: top;
+  
+}
+.ayandiv .ayanpic{
+  border-radius: 100%;
+  border:white solid 2px;
+  
+}
+.jamesdiv {
+  z-index: 999;
+  
+  height: 30%;
+  width: 105px;
+  margin-top: -44%;
+  margin-left: 40px;
+  display: inline-block;
+  border-radius: 100%;
+  vertical-align: top;
+}
+.jamesdiv .jamespic {
+  border-radius: 100%;
+  border:white solid 2px;
+}
+.alydiv {
+  z-index: 999;
+  height: 30%;
+  width: 105px;
+  margin-top: -44%;
+  margin-left: 40px;
+  display: inline-block;
+  border-radius: 100%;
+  vertical-align: top;
+}
+.alydiv .alypic {
+  border-radius: 100%;
+  border:white solid 2px;
+}
+.ayandiv,
+.jamesdiv,
+.alydiv {
+  margin-left: 80px;
+}
+body.active-popup {
+  overflow: hidden;
+}
+body.active-popup .main {
+  filter: blur(6px);
+  background: rgba(0, 0, 0, 0.1);
+  transition: filter 0ms ease-in 600ms ease-out ;
+  pointer-events: none;
+}
+body.active-popup .popup {
+  box-shadow: 0 0 50px 5px rgba(134, 134, 134, 0.7);
+  margin-bottom: 100px;
+  opacity: 1;
+  
+  z-index: 1;
+}
+
+
+.membersname {
+  
+  position: absolute;
+  bottom: 80%;
+  height: 60px;
+  width: 90%;
+}
+.tocinoseller {
+  font-size: 30px;
+  margin-top: 0;
+  margin-left: 160px;
+  margin-top: 8px;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.namediv {
+  
+  position: relative;
+  bottom: 190px;
+  height: 160px;
+
+}
+.ayaninfo {
+  height: 160px;
+  width: 150px;
+  margin-left: 58px;
+  display: inline-block;
+  vertical-align: top;
+}
+.jamesinfo {
+  
+  height: 160px;
+  width: 150px;
+  margin-left: 33px;
+  display: inline-block;
+  vertical-align: top;
+}
+.alyinfo {
+  
+  height: 160px;
+  width: 150px;
+  margin-left: 36px;
+  display: inline-block;
+  vertical-align: top;
+}
+.ayancontactbutton {
+  
+  height: 23px;
+  width: 90px;
+  margin-left: 29px;
+  background-color: white;
+  border-radius: 15px;
+}
+.jamescontactbutton {
+  
+  height: 23px;
+  width: 90px;
+  margin-left: 31px;
+  background-color: white;
+  border-radius: 15px;
+}
+.alycontactbutton {
+  
+  height: 23px;
+  width: 90px;
+  margin-left: 36px;
+  background-color: white;
+  border-radius: 15px;
+}
+.alycontactbutton:hover {
+  cursor: pointer;
+  background-color: rgb(189, 189, 189);
+}
+.ayancontactbutton:hover {
+  cursor: pointer;
+  background-color:rgb(189, 189, 189);
+}
+.jamescontactbutton:hover {
+  cursor: pointer;
+  background-color:rgb(189, 189, 189);
+}
+.div1 {
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  height: 350px;
+  width: 650px;
+  margin-top: -464px;
+  margin-left: 366px;
+  border-radius: 12px;
+  
+  transition: opacity 300ms ease-in-out;
+
+}
+
+.div2 {
+  position: absolute;
+  
+  height: 55px;
+  width: 650px;
+}
+.div3 {
+  position: absolute;
+  
+  margin-top: -33px;
+  margin-left: -7px;
+  height: 280px;
+  width: 650px;
+  overflow: hidden;
+  overflow-y: scroll;
+  
+}
+.text {
+  padding: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+}
+.aboutustext {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-top: 1%;
+  margin-left: 32%;
+  display: flex;
+  color: white;
+}
+.div2 .aboutclosebutton {
+  z-index: 9999;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 25px;
+  height: 25px;
+  background: rgba(94, 94, 94, 0.582);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+body.active-div1 .main {
+  filter: blur(6px);
+  background: rgba(0, 0, 0, 0.1);
+  transition: filter 0ms ease-in 600ms ease-out ;
+  pointer-events: none;
+}
+body.active-div1 .div1 {
+  box-shadow: 0 0 50px 5px rgba(134, 134, 134, 0.7);
+  margin-bottom: 100px;
+  opacity: 1;
+  transition: z-index 0ms ease-out, opacity 300ms ease-in-out;
+  z-index: 1;
+}

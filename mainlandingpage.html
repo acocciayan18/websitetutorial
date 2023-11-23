@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="landingpage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <img class="rightphoto" src="rightphoto.png">
+    <video id="video" autoplay muted loop>
+      <source src="video.mp4" type="video/mp4"> 
+    </video>
+    <div class="container">
+      <img class="logo" src="logo.png">
+      <div class="container1">
+        <p class="codecraft"></p>
+        <span class="cursor"></span>
+        <p class="mastering"></p>
+      </div>
+      <div class="container2">
+        <p class="learn">I want to learn:</p>
+        <div class="image">
+          <img class="image1" src="html.png">
+          <img class="image1" src="css.png">
+          <img class="image1" src="js.png">
+        </div>
+        <div class="button1">
+          <button class="htmlbutton">HTML</button>
+          <button class="cssbutton">CSS</button>
+          <button class="jsbutton">JAVASCRIPT</button>
+        </div>
+        <div class="about">
+          <button id="about1">About us</button>
+          <button id="members">Members</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup">
+    <button class="closebutton">&times;</button>
+    <img src="popupbg.png" class="popupbg">
+    <div class="membersname">
+      <h3 class="tocinoseller">Tocino Seller's Group</h3>
+    </div>
+    <div class="ayandiv">
+      <img src="ayanpic.jpg" class="ayanpic">
+    </div>
+    <div class="jamesdiv">
+      <img src="jamespic.jpg" class="jamespic">
+    </div>
+    <div class="alydiv">
+      <img src="alypic.jpg" class="alypic">
+    </div>
+    <div class="namediv">
+      <div class="ayaninfo">
+        <h3 style="color: white; margin-left: 11px;">Ayan Torreda</h3>
+        <h5 style="color: white; margin-left: 33px;">BSCS B2023</h5>
+        <div class="ayancontactbutton">
+          <img src="fblogo.png" style="object-fit: contain; margin-left: -41%; height: 23px; position: center;">
+          <a style="position: absolute; margin-left: -4%; margin-top: 2px;font-size: 15px; text-decoration:  none; color: black;" href="https://www.facebook.com/profile.php?id=61550747552819">Contact</a>
+        </div>
+      </div>
+      <div class="jamesinfo">
+        <h3 style="color: white; margin-left: 2px;">James Taylaran</h3>
+        <h5 style="color: white; margin-left: 35px;">BSCS B2023</h5>
+        <div class="jamescontactbutton">
+          <img src="fblogo.png" style="object-fit: contain; margin-left: -41%; height: 23px; position: center;">
+          <a style="position: absolute; margin-left: -4%; margin-top: 2px;font-size: 15px; text-decoration:  none; color: black;" href="https://www.facebook.com/jamesaldrine.taylaran">Contact</a>
+        </div>
+      </div>
+      <div class="alyinfo">
+        <h3 style="color: white; margin-left: 30px;">Aly Mortel</h3>
+        <h5 style="color: white; margin-left: 38px;">BSCS B2023</h5>
+        <div class="alycontactbutton">
+          <img src="fblogo.png" style="object-fit: contain; margin-left: -41%; height: 23px; position: center;">
+          <a style="position: absolute; margin-left: -4%; margin-top: 2px;font-size: 15px; text-decoration:  none; color: black;" href="https://www.facebook.com/profile.php?id=100069763513285">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="div1">
+    <img src="popupbg.png" style="object-fit: cover; height: 100%; width: 100%; position: absolute; border-radius: 12px;">
+    <div class="div2">
+      <h3 class="aboutustext"><svg width="46" height="46" fill="none" color="white"stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 30 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+      </svg>About us</h3>
+      <button class="aboutclosebutton">&times;</button>
+      <div class="div3">
+        
+        <p class="text">
+         
+We are a dedicated group of Bachelor of Science in Computer Science B2023 students from Taguig City University, passionate about web development and eager to share our knowledge through this comprehensive website tutorial. Embark with us on an exciting journey into the dynamic realm of web technologies. Our immersive learning experience is tailored to equip you with the fundamental skills in HTML, CSS, and JavaScript.
+<br>
+<br>
+Begin your exploration with HTML, the fundamental building block of the web, empowering you to structure content seamlessly. Transition to CSS, where the art of design unfolds, enabling you to transform ordinary elements into visually captivating designs. Brace yourself for JavaScript, the dynamic powerhouse that elevates websites with interactive and functional capabilities.
+<br>
+<br>
+Joining our tutorial means unraveling the keys to crafting compelling web experiences. From mastering HTML's semantic structure to harnessing CSS's stylistic prowess for unparalleled visual allure, and delving deep into JavaScript's scripting capabilities for dynamic web behavior, this tutorial serves as your gateway to becoming a versatile web developer.
+<br>
+<br>
+Prepare to dive into code, unleash your creativity, and innovate as you navigate through these foundational languages. Arm yourself with the skills to craft remarkable websites that not only captivate but also engage users across the expansive digital landscape.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+  <script>
+     const codecraftText = "CodeCraft Pro";
+    const masteringText = "Mastering HTML, CSS & JavaScript";
+
+    const codecraftElement = document.querySelector('.codecraft');
+    const masteringElement = document.querySelector('.mastering');
+
+    let codecraftIndex = 0;
+    let masteringIndex = 0;
+
+    const typingEffect = (text, element, index) => {
+      if (index < text.length) {
+        element.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(() => typingEffect(text, element, index), 125); 
+      }
+    };
+    typingEffect(codecraftText, codecraftElement, codecraftIndex);
+    setTimeout(() => typingEffect(masteringText, masteringElement, masteringIndex), codecraftText.length * 100);
+    window.onload = typingEffect;
+
+    document.querySelector("#members").addEventListener("click", function(){document.body.classList.add("active-popup");
+    });
+    document.querySelector(".popup .closebutton").addEventListener("click", function(){
+    document.body.classList.remove("active-popup");
+    });
+
+    document.querySelector("#about1").addEventListener("click", function(){document.body.classList.add("active-div1");
+    });
+    document.querySelector(".div2 .aboutclosebutton").addEventListener("click", function(){
+    document.body.classList.remove("active-div1");
+    });
+  </script>
+
+</html>
